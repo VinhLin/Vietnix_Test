@@ -48,10 +48,17 @@ python3 cluster_load.py cluster-pve-hcm-c3.json --format json | jq .
 ### Phần 3
 Chọn đề A, và lúc này mình sẽ add thêm vài tiêu chí cá nhân khi lựa chọn công cụ:
 ```
+Mục tiêu
 Chi phí
-Đối tượng/Mục tiêu
 Vận hành
 ```
+
+--------------------------------------
+## Các công cụ đã dùng:
+- VSCode để đọc nội dung trong folder `phan1-su-co` và `phan2-proxmox`
+- OpenClaw Agent viết code cho phần `phan2-proxmox`, phân tích và bổ sung các mục khác của **phần 1** và **phần 3**.
+- Các công cụ khác: Powershell, Python, Warp, Gemini
+
 
 
 

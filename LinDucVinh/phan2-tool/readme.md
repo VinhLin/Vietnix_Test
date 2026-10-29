@@ -8,19 +8,13 @@ CLI Python chỉ đọc snapshot JSON, tính tải mỗi node, báo dữ liệu 
 - Bảng terminal (mặc định):
 
 ```powershell
-python .\cluster_load.py ..\phan2-proxmox\cluster-pve-hcm-c3.json
+python .\cluster_load.py .\cluster-pve-hcm-c3.json
 ```
 
 - JSON chuẩn cho pipe:
 
 ```powershell
-python .\cluster_load.py ..\phan2-proxmox\cluster-pve-hcm-c3.json --format json | ConvertFrom-Json
-```
-
-- Tùy chỉnh ngưỡng:
-
-```powershell
-python .\cluster_load.py snapshot.json --cpu-limit 80 --memory-limit 85 --vcpu-limit 2.5
+python .\cluster_load.py .\cluster-pve-hcm-c3.json --format json | ConvertFrom-Json
 ```
 
 - Test logic cốt lõi:
